@@ -1,0 +1,114 @@
+/* Common codes starts */
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+
+}
+
+html {
+    background-color: white;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+/* common code ends  */
+
+
+/* header strts here  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 12.5 vh;
+
+
+}
+
+.site-logo img {
+    margin-left: 40px;
+    width: 40%;
+    height: 40%;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    color: black;
+    transition: all 0.4s;
+
+}
+
+nav ul li {
+    padding: 1rem;
+    transition: all 0.4s;
+}
+
+nav ul li:hover {
+
+    background-color: #133267;
+    border-radius: 2rem;
+
+}
+
+.menu {
+    color: white;
+    font-size: large;
+}
+
+.site-name {
+    margin-right: 40rem;
+    white-space: nowrap;
+    size: 40px;
+}
+
+
+
+/* header  ends  here  */
+
+
+/* footer starts here  */
+.fuck {
+    background-color: black;
+    padding: 1rem;
+
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80vh;
+}
+
+.copyright-text {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-icon {
+    font-size: 2.5rem;
+}
+
+
+
+/* footer ends here  */

@@ -1,0 +1,225 @@
+/* Common codes starts */
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+
+}
+
+html {
+    background-color: white;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+/* common code ends  */
+
+
+/* header strts here  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 12.5 vh;
+
+
+}
+
+.site-logo img {
+    margin-left: 40px;
+    width: 40%;
+    height: 40%;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    color: black;
+    transition: all 0.4s;
+
+}
+
+nav ul li {
+    padding: 1rem;
+    transition: all 0.4s;
+}
+
+nav ul li:hover {
+
+    background-color: #133267;
+    border-radius: 2rem;
+
+}
+
+.menu {
+    color: white;
+    font-size: large;
+}
+
+.site-name {
+    margin-right: 40rem;
+    white-space: nowrap;
+    size: 40px;
+}
+
+
+
+/* header  ends  here  */
+
+/* contact details starts here */
+.contact {
+    display: flex;
+    padding: 5rem 1rem;
+
+}
+
+.talk {
+    flex: 1;
+    padding-left: 10rem;
+}
+
+.talk-header {
+    padding-bottom: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #133267;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.email {
+    color: #133267;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.email-text {
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+.phone {
+    color: #133267;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.phone-text {
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+.address {
+    color: #133267;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.address-text {
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+.follow {
+    font-size: 22px;
+    color: #133267;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.touch {
+    flex: 1;
+    padding-right: 15rem;
+    text-align: left;
+    color: #133267;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.touch-header {
+    padding-bottom: 5rem;
+    text-align: left;
+    color: #133267;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #133267;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* contact details ends here */
+
+
+/* footer starts here  */
+.fuck {
+    background-color: black;
+    padding: 1rem;
+
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-text {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-icon {
+    font-size: 2.5rem;
+}
+
+
+
+/* footer ends here  */

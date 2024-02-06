@@ -1,0 +1,302 @@
+/* Common codes starts */
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+
+}
+
+.btn {
+    background-color: rgb(230, 159, 8);
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Rubik" sens sar;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    font-size:12px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18rem;
+  }
+
+html {
+    background-color: white;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+/* common code ends  */
+
+
+/* header strts here  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 12.5 vh;
+
+
+}
+
+.site-logo img {
+    margin-left: 40px;
+    width: 40%;
+    height: 40%;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    color: black;
+    transition: all 0.4s;
+
+}
+
+nav ul li {
+    padding: 1rem;
+    transition: all 0.4s;
+}
+
+nav ul li:hover {
+
+    background-color: #133267;
+    border-radius: 2rem;
+
+}
+
+.menu {
+    color: white;
+    font-size: large;
+}
+
+.site-name {
+    margin-right: 40rem;
+    white-space: nowrap;
+    size: 40px;
+}
+
+
+
+/* header  ends  here  */
+
+/* banner starts here  */
+.banner-container {
+    position: relative;
+    overflow: hidden; /* Ensure the image doesn't overflow the container */
+}
+
+.banner-photo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 200vh;
+    padding-top: 4rem;
+}
+
+.photo {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    /* border-radius: 15px; Adjust as needed */
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke; /* Adjust text color as needed */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+}
+
+/* banner ends here  */
+
+/* banner text starts here  */
+
+.head-1{
+    font-size:30pxpx;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.head-2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: .5rem;
+    font-weight:500;
+}
+/* banner text ends here  */
+
+
+/* journey starts here  */
+.journey{
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+.j-1{
+    flex: 1;
+    font-size: 20px;
+}
+
+.j-2{
+    flex: 1;
+    font-size: 20px;
+}
+
+.j-3{
+    flex: 1;
+    font-size: 20px;
+}
+
+.j-head{
+    text-align: center;
+    color: #133267;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 4rem;
+    font-weight: 600;
+}
+/* journey ends here  */
+
+/* activities starts here  */
+
+.activities-head{
+    text-align: center;
+    color: #133267;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.frame-first {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    background-color: #ffffff;
+    gap: 12rem;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.frame-1{
+    height: 50vh;
+    width: 100vh;
+    align-items: center;
+}
+
+.frame-2{
+    height: 50vh;
+    width: 100vh;
+}
+
+.f-1, .f-2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 1.5rem 1.5rem .5rem rgb(237,237,237);
+}
+
+
+/* activities ends here  */
+
+/* projects head starts here  */
+.project-head{
+    text-align: center;
+    color: #133267;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+
+.projets {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    background-color: #ffffff;
+    gap: 5rem;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.academic{
+    height: 30vh;
+    width: 1000px;
+    align-items: center;
+}
+
+.algorithm{
+    height: 30vh;
+    width: 1000px;
+}
+
+.academic, .algorithm {
+    height: 30vh;
+    width: 1000px;
+    /* object-fit: cover; */
+    border-radius: 5px;
+    box-shadow: 1.5rem 1.5rem .5rem rgb(237,237,237);
+}
+
+/* projects ends here  */
+
+/* footer starts here  */
+.fuck {
+    background-color: black;
+    padding: 1rem;
+
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.copyright-text {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-icon {
+    font-size: 2.5rem;
+}
+
+
+
+/* footer ends here  */
+

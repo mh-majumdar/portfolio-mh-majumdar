@@ -1,0 +1,408 @@
+/* Common codes starts */
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+
+}
+
+.btn {
+    background-color: rgb(230, 159, 8);
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Rubik" sens sar;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    font-size:12px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 18rem; */
+  }
+
+html {
+    background-color: white;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+/* common code ends  */
+
+
+/* header strts here  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 12.5 vh;
+
+
+}
+
+.site-logo img {
+    margin-left: 40px;
+    width: 40%;
+    height: 40%;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    color: black;
+    transition: all 0.4s;
+
+}
+
+nav ul li {
+    padding: 1rem;
+    transition: all 0.4s;
+}
+
+nav ul li:hover {
+
+    background-color: #133267;
+    border-radius: 2rem;
+
+}
+
+.menu {
+    color: white;
+    font-size: large;
+}
+
+.site-name {
+    margin-right: 40rem;
+    white-space: nowrap;
+    size: 40px;
+}
+
+
+
+/* header  ends  here  */
+
+/* banner starts here  */
+.banner {
+    display: flex;
+    padding: 1rem;
+    min-height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.article {
+    flex-basis: 50%;
+    font-size: x-large;
+}
+
+.title {
+    color: #133267;
+    font-size: xx-large;
+    font-weight: 500;
+
+}
+
+.description {
+    padding-top: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner-photo {
+    min-width: 5vh;
+    width: 55rem;
+    box-shadow: 0.3rem solid black;
+    flex-basis: 50%;
+}
+
+/* banner end here here  */
+
+/* about me start here  */
+
+.me {
+    text-align: center !important;
+    padding: 5rem;
+    text-decoration: underline;
+    font-size: 25px;
+    color: #133267;
+    font-weight: 500;
+
+}
+
+.text {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #133267;
+}
+
+.about {
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 5vh;
+
+
+}
+
+.about1 {
+    font-size: 20px;
+    padding-right: 5rem;
+
+
+}
+
+.about2 {
+    flex: 1;
+    font-size: 20px;
+    padding-right: 5rem;
+
+}
+
+.about3 {
+
+    width: 40rem;
+    height: 40rem;
+    box-shadow: 5px 5px 10px 5px #000000;
+
+
+}
+
+/* about me end here  */
+
+/* carrier starts here  */
+
+.carrier-heading {
+    text-align: center !important;
+    text-decoration: underline;
+    font-size: 25px;
+    color: #133267;
+    font-weight: 500;
+
+}
+
+.carrier-content {
+    display: flex;
+    padding: 5rem;
+    min-height: 5vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cp {
+    padding-right: 5rem;
+    text-align: center;
+    flex: 1;
+}
+
+.cp-logo {
+    width: 70px;
+}
+
+.cp-title {
+    font-size: 20px;
+    color: #133267;
+    font-weight: 500;
+}
+
+.cp-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.writing {
+    text-align: center;
+    flex: 1;
+    padding-right: 5rem;
+}
+
+.writing-logo {
+    width: 70px;
+}
+
+.writing-title {
+    font-size: 20px;
+    color: #133267;
+    font-weight: 500;
+}
+
+.writing-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.photography {
+    text-align: center;
+    flex: 1;
+}
+
+.camera-logo {
+    width: 70px;
+}
+
+.camera-title {
+    font-size: 20px;
+    color: #133267;
+    font-weight: 500;
+}
+
+.camera-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+ 
+/* carrier ends here  */
+
+
+/* educationl background starts here  */
+.education{
+    text-align: center;
+    color: #133267;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    
+}
+
+.edu-box{
+    margin-bottom: 5rem;
+}
+
+.nstu-logo{
+
+}
+
+.cvgc-logo{
+   
+}
+
+.nstu-img{
+    height: 20vh;
+
+}
+
+.cvgc-img{
+    height: 20vh;
+   
+}
+
+.cvgc{
+    margin-top: 2rem;
+}
+
+.nstu-text{
+    font-size: 13px;
+}
+
+.cvgc-text{
+    font-size: 13px;
+}
+
+.edu-head{
+    color: #133267;
+    font-weight: 600;
+    
+}
+
+/* educationl background ends here  */
+
+ 
+
+
+
+
+
+
+
+/* footer starts here  */
+.fuck {
+    background-color: black;
+    padding: 1rem;
+
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-text {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-icon {
+    font-size: 2.5rem;
+}
+
+
+
+/* footer ends here  */
+
+/* responsivenss starts here  */
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: small;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        padding: 1rem;
+
+        .menu {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+/* responsivenss end here  */

@@ -1,0 +1,399 @@
+/* Common codes starts */
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+
+}
+
+html {
+    background-color: white;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+/* common code ends  */
+
+
+/* header strts here  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 12.5 vh;
+
+
+}
+
+.site-logo img {
+    margin-left: 40px;
+    width: 40%;
+    height: 40%;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    color: black;
+    transition: all 0.4s;
+
+}
+
+nav ul li {
+    padding: 1rem;
+    transition: all 0.4s;
+}
+
+nav ul li:hover {
+
+    background-color: #133267;
+    border-radius: 2rem;
+
+}
+
+.menu {
+    color: white;
+    font-size: large;
+}
+
+.site-name {
+    margin-right: 40rem;
+    white-space: nowrap;
+    size: 40px;
+}
+
+
+
+/* header  ends  here  */
+
+/* banner starts here  */
+.banner-container {
+    position: relative;
+    overflow: hidden; /* Ensure the image doesn't overflow the container */
+}
+
+.banner-photo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    width: 200vh;
+    padding-top: 4rem;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 15px; Adjust as needed */
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke; /* Adjust text color as needed */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+}
+
+
+/* banner ends here  */
+
+/* frame starts here  */
+.frame {
+    display: flex;
+    padding: 5rem;
+    min-height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-1 {
+    flex: 1;
+    font-size: small;
+}
+
+.frame-2 {
+    flex: 1;
+    font-size: small;
+}
+
+frame-1 {
+    height: 50px;
+    width: 80px;
+    box-shadow: 1rem solid #133267;
+
+}
+
+frame-1 {
+    height: 50px;
+    width: 80px;
+    box-shadow: 1rem solid #133267;
+}
+
+.frame-1-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+/* frame endn here  */
+
+/* quote starts here  */
+.quote{
+    display:flex;
+    padding: 5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    font-size:x-large;
+    color:#133267;
+    font-weight: 500 ;
+    margin-top: 5rem;
+    margin-bottom: 30 rem;
+    height: 100px;
+    width: auto;
+}
+
+.author{
+    font-size: medium;
+}
+/* quote ends here  */
+
+.frame-heading{
+    text-align: center;
+    color: #133267;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+/* frame starts here  */
+.frame-first {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    background-color: #ffffff;
+    gap: 12rem;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.frame-1{
+    height: 50vh;
+    width: 40vh;
+    align-items: center;
+}
+
+.frame-2{
+    height: 50vh;
+    width: 40vh;
+}
+
+.f-1, .f-2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 1.5rem 1.5rem .5rem rgb(237,237,237);
+}
+
+
+ /* .f-1:hover {
+    box-shadow: 3rem 3rem 0.5rem rgb(237,237,237);
+}
+
+.f-2:hover {
+    box-shadow: .5rem 1rem 0.5rem rgb(237,237,237);
+} */
+
+.frame-first-text{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    background-color: #ffffff;
+    gap: 23rem;
+    justify-content: center;
+    padding: 4rem;
+    margin-top: 5rem;
+
+
+}
+
+.f-1-text{
+    font-size:15px;
+    text-align: center;
+}
+
+.f-2-text{
+    font-size:15px;
+    text-align: center;
+}
+
+.text-head{
+   padding-bottom: 1.5rem;
+   color: #133267;
+   font-weight: 500;
+}
+
+.text{
+    font-size: 18px;
+}
+
+.btn {
+    background-color: rgb(230, 159, 8);
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Rubik" sens sar;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    font-size:12px;
+    font-weight: 500;
+  }
+
+  .frame-second {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    background-color: #ffffff;
+    gap: 12rem;
+    justify-content: center;
+    padding: 4rem;
+    margin-top: 7rem;
+}
+
+/* frame ends here  */
+
+
+/* scrolling starts here  */
+.fixed-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .shoot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    color: white;
+    text-align: right;
+    padding: 20px;
+  }
+  
+  /* Additional styling to make the text more readable */
+  .shoot-head {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .shoot-head-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  /* Sticky behavior for .fixed-container */
+  .fixed-container.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+  
+  
+
+/* scrolling ends here  */
+
+
+/* gallery starts here  */
+.click{
+    font-size: 30px;
+    color: #133267;
+    text-decoration:underline;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    
+}
+
+.para{
+    font-size: 20px;
+
+}
+.gallery {
+    display: flex;
+    padding: 5rem;
+    margin-top: 5rem;
+}
+
+.gallery-text {
+    flex: 40% ;
+    padding: 20px;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 80vh;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+    overflow: hidden;
+    border-radius: 10px; /* Adjust border-radius as needed */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* gallery starts here  */
